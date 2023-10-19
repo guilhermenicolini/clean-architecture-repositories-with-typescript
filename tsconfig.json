@@ -1,0 +1,35 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist",
+    "rootDirs": [
+      "src",
+      "tests"
+    ],
+    "strict": true,
+    "target": "ES2021",
+    "module": "CommonJS",
+    "allowJs": true,
+    "removeComments": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "strictPropertyInitialization": false,
+    "sourceMap": true,
+    "baseUrl": "src",
+    "paths": {
+      "@/tests/*": [
+        "../tests/*"
+      ],
+      "@/*": [
+        "*"
+      ]
+    }
+  },
+  "include": [
+    "src",
+    "tests"
+  ]
+}
