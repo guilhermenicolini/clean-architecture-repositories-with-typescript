@@ -28,7 +28,3 @@ export class DataSources {
     return await conn.db()
   }
 }
-
-export const sleep = async (): Promise<void> => {
-  await new Promise(resolve => setTimeout(() => { resolve(undefined) }, 5000))
-}
